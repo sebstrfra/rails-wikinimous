@@ -1,0 +1,13 @@
+<h1>Welcome to Seb-O-Pedia</h1>
+
+<ul>
+  <% @articles.each do |article| %>
+  <li> <h2><%= article.title %></h2> <p><%= article.content %></p> </li>
+  <br>
+  <br>
+  <% end %>
+</ul>
+
+<h2></h2>
+
+
